@@ -4,7 +4,7 @@
              x:Class="AreaCirculoAppMvvm.View.CalculoAreaView"
              xmlns:viewModel="clr-namespace:AreaCirculoAppMvvm.ViewModel"
              Title="CalculoAreaView">
-    <VerticalStackLayout>
+    <VerticalStackLayout Padding="20" Spacing="20">
 
         <Label Text="Ingrese el Radio Del circulo en cms: "/>
         <Entry Text="{Binding Radio}" Keyboard="Numeric"/>
