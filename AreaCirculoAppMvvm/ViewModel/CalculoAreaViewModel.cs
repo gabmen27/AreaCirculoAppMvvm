@@ -28,7 +28,7 @@ namespace AreaCirculoAppMvvm.ViewModel
                 }
                 else
                 {
-                    Resultado = Radio * Math.PI;
+                    Resultado = (Radio*Radio) * Math.PI;
                 }
             }
             catch (Exception ex)
